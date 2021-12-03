@@ -1,0 +1,54 @@
+body{
+margin: 0px;
+background-color:  #212429 ;
+padding: 0px;
+font-family: 'Poppins', sans-serif;
+width: 1270px;
+height: 280px;
+
+}
+
+/*footer section evveli*/
+#footer{
+margin-top: 50px;
+display: flex;
+justify-content: space-between;
+}
+.footer-navbar{
+    display: flex;
+    justify-content:space-between;
+}
+.footer-navbar a{
+text-decoration: none;
+color: white;
+
+}
+.footer-navbar li{
+    margin-left: 15px;
+    list-style-type: none;
+    cursor: none;
+   
+}
+.footer-contact{
+    margin-top: 0px;
+    color: white;
+}
+.footer-contact p, h5{
+    color: gray;
+}
+hr{
+    color: gray;
+}
+/*footer section sonu*/
+
+#footer-logo{
+margin-top: 40px;
+margin-left: 40px;
+display: flex;
+justify-content: space-between;
+
+}
+#footer-logo img{
+    width: 79px;
+    height: 31px;
+}

@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100ph;
+    background: linear-gradient(to bottom right, #6cdbf1 10%, #8777f0 100%);
+}
+
+#container{
+    margin: 0 auto;
+    width: 900px;
+    
+}
+.conatiner-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+} 
+.container-gridbox{
+    margin:0 auto;
+    display: grid;
+    border:1px solid yellow;
+    grid-template-columns: 300px 300px 300px;
+    
+}
+.item{
+    margin:0 auto;
+}

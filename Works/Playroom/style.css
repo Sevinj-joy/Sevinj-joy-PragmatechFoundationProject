@@ -1,0 +1,57 @@
+body{
+ margin: 0px;
+ padding: 0px;
+ font-family: 'Baloo Chettan 2', cursive;
+ background-color: #F6F1E4;
+
+}
+
+.navbar-up{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+    color: #656565;
+    padding: 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #ffd7cd;
+}
+.navbar-icon-panel{
+  
+    
+}
+.navbar-icon-panel i{
+    margin-right: 10px;
+}
+.navbar-icon-panel span{
+    margin-right: 27px;
+}
+/* NAVBAR LOGA AND MENU STARTED */
+.navbar-logo-nd-menu img {
+    margin: 10px 15px;
+    width: 100px;
+}
+.navbar-logo-nd-menu li{
+    list-style-type: none;
+}
+.navbar-logo-nd-menu a{
+    text-decoration: none;
+
+}
+
+.navbar-logo-nd-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-logo-nd-menu ul{
+    display: flex;
+
+}
+.navbar-menu-items {
+    padding: 0px 20px;
+}
+.navbar-menu-items ul li a{
+    margin-right: 30px;
+}
+.navbar-menu-items i{
+    margin-right: 10px;
+}

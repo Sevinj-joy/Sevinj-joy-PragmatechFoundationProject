@@ -1,0 +1,25 @@
+div#flag{
+    width: 500px;
+    height: 450px;
+    border: 1px solid black;
+
+}
+p#blue{
+    width: 500px;
+    height: 150px;
+    margin: 0px 0px;
+    background-color:#00b5e2;
+}
+p#red{
+    width: 500px;
+    height: 150px;
+    margin: 0px 0px;
+    background-color:	#ef3340;
+
+}
+p#green{
+    width: 500px;
+    height: 150px;
+    margin: 0px 0px;
+    background-color:#509e2f;
+}

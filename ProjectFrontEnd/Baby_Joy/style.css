@@ -1,0 +1,129 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Edmondsans";
+}
+h1 h2 h3 h4 h5 {
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+#block-upper{
+    background-color:  #FAE8E0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;  
+    
+}
+#block-upper :nth-child(1) {
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 463px;
+    height: 111px;
+    
+}
+#block-upper :nth-child(2){
+    width: 560px;
+ 
+}
+.fa-times-circle{
+    color:  #67595E;
+    padding: 0px 15px;
+    font-size: 20px;
+    margin-top: 25px;
+ 
+}
+#account-navbar {
+    width: 100%;
+    height: auto;
+    background-color: #E8B4B8 ;
+    text-align: center;
+}
+.account-icon-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#account-navbar ul{
+    margin:0px;
+    margin-top: 15px;
+    padding-left: 0px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+    padding-inline-start: 0px; 
+}
+
+#account-navbar ul a{
+    color:  #67595E;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+
+/* Navbar-logo-and-menu STARTED*/
+
+#navbar-logo-nd-menu{
+width: 100%;
+display: block;
+text-align: center;
+
+}
+#navbar-logo-nd-menu img{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 270px;
+    height: auto;
+}
+hr{
+    border: .5px solid lightgray;
+}
+.navbar-nav-menu {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 25;
+  
+}
+
+.navbar-nav-menu ul{
+    
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navbar-nav-menu ul a{
+    text-decoration: none;
+    color:#67595E;
+}
+.navbar-nav-menu li a:hover{
+    color: white;
+    background-color: #67595E;
+    transition: 0.3s ease;
+    border-radius: 1px;
+    
+}
+.justin-none-block{
+    display: none;
+    margin-top:70px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 3;
+
+    
+}
+
+.block-babies-div-panel h4{
+
+    color: #67595E;
+    display: block;
+    text-align: center;
+    
+
+}
