@@ -4,7 +4,7 @@ body{
     padding: 0px;
     font-family: "Edmondsans";
 }
-h1 h2 h3 h4 h5 {
+h1, h2, h3, h4 ,h5 {
     padding: 0px;
     margin: 0px;
 }
@@ -61,7 +61,6 @@ a{
     color:  #67595E;
     text-decoration: none;
     margin-left: 30px;
-
 }
 
 
@@ -86,12 +85,11 @@ hr{
     width: 100%;
     height: auto;
     position: relative;
-    z-index: 25;
+    z-index: 15;
   
 }
 
 .navbar-nav-menu ul{
-    
     margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
@@ -106,24 +104,65 @@ hr{
     color: white;
     background-color: #67595E;
     transition: 0.3s ease;
-    border-radius: 1px;
+    border-radius: 2px;
     
 }
-.justin-none-block{
+.navbar-nav-menu ul > li:nth-child(2):hover .justin-none-block{
+    display: block;
+   
+}
+.justin-none-block {
+    width: 100%;
+    height: auto;
     display: none;
-    margin-top:70px;
+    position: absolute;
+    left: 60px ;
+}
+.justin-four-block{
+    margin-top: 55px;
     display: flex;
     justify-content: space-evenly;
-    z-index: 3;
-
+    z-index: 1;
     
+}
+.block-babies-div-panel {
+    margin-right: 20px;
 }
 
 .block-babies-div-panel h4{
-
     color: #67595E;
     display: block;
     text-align: center;
-    
+}
+/*Backround Image css*/
 
+#b-img-div{
+    background-image: url(Images/home1.jpg);
+    margin-top: 55px;
+    width: 100%;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-img-middle-div{
+    background-color: white;
+    width: 445px;
+    height: 180px;
+    border: 2px solid pink;
+}
+.b-img-middle-div span{
+    
+    margin-top: 30px;
+}
+#b-img-div .btn-shop{
+    background-color:#99A9B4; 
+    width: 180px;
+    height: 50px;
+    border:none;
+    
+}
+#b-img-div .btn-shop a{
+    
+    color: white;
 }
