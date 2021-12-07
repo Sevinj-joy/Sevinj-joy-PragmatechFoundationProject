@@ -77,3 +77,60 @@ cavab-- CSS de initial  her seyi reset edir baslangic xususiyyete qaytarir.Inher
 
 cavab--
 . HTML və HTML5 arasındakı əsas fərq ondan ibarətdir ki, nə audio, nə də video HTML-nin tərkib hissəsi sayıla bilməz, lakin hər ikisi HTML5-in ayrılmaz hissəsidir. HTML5 de video yerlesdirerken artqi hazir onun xususiyyetleri ile birlikde yerlesdirmek ucun <video controls> yazmaq kifayet edir
+
+
+### Araşdırma mətni
+Javascript variable qaynağından Javascript deyişənlər haqqında araşdırma edin. Araşdırma edərkən bu suallara cavab axtararaq araşdırın
+
+### Sual -Dəyişən proqramlaşdırmada ya da Javascript-də nə üçün var ?
+## cavab-- 
+Deyisenler- Verilenleri saxlamaq ucun istifade olunur.
+
+### Sual- Dəyişənləri adlandırarkən nələrə diqqət etmək lazımdır?
+## Cavab--
+Adda yalnız hərf, rəqəmlər və ya $ və _ simvolları ola biler.
+Birinci simvol rəqəm olmamalıdır.
+
+### Sual- Hansı ifadələri dəyişən adı olaraq vermək olmaz?
+## Cavab--
+abstract	arguments	await*	boolean
+break	byte	case	catch
+char	class*	const	continue
+debugger	default	delete	do
+double	else	enum*	eval
+export*	extends*	false	final
+finally	float	for	function
+goto	if	implements	import*
+in	instanceof	int	interface
+let*	long	native	new
+null	package	private	protected
+public	return	short	static
+super*	switch	synchronized	this
+throw	throws	transient	true
+try	typeof	var	void
+volatile	while	with	yield
+### Sual - let,var,const ifadələrinin menası nədir və aralarında fərqlər nədir?
+## Cavab--
+VAR açar sözü demək olar ki, let  ilə eynidir. O, həmçinin dəyişən elan edir, lakin bir qədər fərqlidir ve artiq istifade olunmur. Const deyiseni mensub edildiyi operator artiq basqa deyisen menimsedile bilmez , cunki const constant demekdir yeni deyismez sabit.
+
+### Javascript data types qaynağından araşdırın.Aşağıdakı suallara cavab axtarın
+## Sual - Hansı məlumat növləri var?
+
+# cavab--
+JavaScript-də səkkiz əsas məlumat növü var. 
+1. Number type
+2. String
+3. Boolean (logical type)
+4. The “null” value
+5. The “undefined” value
+6. Objects 
+7. BigInt
+8. Symbols
+
+## Sual Məlumat növlərinin fərqləndirilməsi nəyə lazmdır?
+
+## Sual -undefined,null,NaN ifadələrinin mənası nədir?
+# Cavab
+NULL , sadəcə olaraq “heç nə”, “boş” və ya “naməlum dəyər”i təmsil edir.
+Undefined menasi  Müəyyən edilməmiş mənası "dəyər təyin edilmir" deməkdir.
+NaN hesablama xətasını göstərir. Bu, səhv və ya qeyri-müəyyən bir riyazi əməliyyatın nəticəsidir.
