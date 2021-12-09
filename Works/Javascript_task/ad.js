@@ -32,6 +32,8 @@
 //     console.log(i)
 // }
 
+
+
 // var say=prompt(" reqem yazin");
 // if(say % 2==0)
 // {
@@ -41,6 +43,8 @@
 // {
 // alert("Yazilan "+ say + " reqemi tekdir")
 // }
+
+
 
 // var say=prompt(" reqem yazin");
 // if(say % 3==1)
