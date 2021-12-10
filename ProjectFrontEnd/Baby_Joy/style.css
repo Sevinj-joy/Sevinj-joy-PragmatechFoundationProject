@@ -89,7 +89,7 @@ hr{
   
 }
 
-.navbar-nav-menu ul{
+.navbar-nav-menu-list{
     margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
@@ -116,7 +116,8 @@ hr{
     height: auto;
     display: none;
     position: absolute;
-    left: 60px ;
+    background-color: white;
+    left: 7px;
 }
 .justin-four-block{
     margin-top: 55px;
@@ -144,25 +145,70 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .b-img-middle-div{
     background-color: white;
     width: 445px;
     height: 180px;
-    border: 2px solid pink;
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
 }
 .b-img-middle-div span{
-    
+    color: #99A9B4;
     margin-top: 30px;
 }
 #b-img-div .btn-shop{
     background-color:#99A9B4; 
+    border-radius: 1px;
     width: 180px;
     height: 50px;
     border:none;
-    
+    position: absolute;
+    text-align: center;
+    line-height: 25px;
+    font-size: 1rem;
+    bottom: 120px;
 }
 #b-img-div .btn-shop a{
-    
     color: white;
+}
+ /*Boys-girls-div-panel basladi */
+.boys-girls-div-panel{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    border: 1px solid yellow;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3em;
+
+}
+.products-down-menu span{
+    padding-left: 45px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.products-down-menu ul li{
+  display: block;
+  padding-left: 30px;
+  
+}
+.boys-girls-div-panel ul{
+    list-style-type:none;
+}
+.products-size{
+    display: none;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
