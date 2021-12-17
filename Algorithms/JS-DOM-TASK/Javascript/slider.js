@@ -10,13 +10,19 @@ Sekiller [3] = 'Images/man-walking-dog.jpg';
 Sekiller [4] = 'Images/natural-beauty.jpg';
 
 // slider funksiyasi
-function changeImage (){
+function changeImage() {
 
-    let x = document.getElementsByClassName("small-image").getAttribute("src"); 
-    document.querySelector("big-image" ).innerHTML = x;
-    
+    if (document.getElementById("imgClickAndChange").src == "Images/big-one.jpg") 
+    {
+        document.getElementById("imgClickAndChange").src = "Images/forest.jpg";
+    }
+    else 
+    {
+        document.getElementById("imgClickAndChange").src = "Images/natural-beauty.jpg";
+    }
 }
-   
+
+ 
    
 
 
