@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gallery {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .big-image {
+            height: 600px;
+            overflow: hidden;
+        }
+        
+        .big-image img {
+            height: 600px;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+        .small-images {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .small-image {
+            height: 150px;
+            cursor: pointer;
+        }
+        
+        .small-image img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="big-image">
+            <img src="images/1280px-Landscapes-sun-fields-nature-clouds-desktop-picture-1920x1080.jpg" alt="">
+        </div>
+        <div class="small-images">
+            <div class="small-image" onclick="changeImage(this)">
+                <img src="images/1280px-Landscapes-sun-fields-nature-clouds-desktop-picture-1920x1080.jpg" alt="">
+            </div>
+            <div class="small-image" onclick="changeImage(this)">
+                <img src="images/24701-nature-natural-beauty.jpg" alt="">
+            </div>
+            <div class="small-image" onclick="changeImage(this)">
+                <img src="images/gettyimages-168346757_web.jpg" alt="">
+            </div>
+            <div class="small-image" onclick="changeImage(this)">
+                <img src="images/Hopetoun_falls.jpg" alt="">
+            </div>
+            <div class="small-image" onclick="changeImage(this)">
+                <img src="images/man-walking-dog.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>

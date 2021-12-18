@@ -12,9 +12,9 @@ Sekiller [4] = 'Images/natural-beauty.jpg';
 // slider funksiyasi
 function changeImage() {
 
-    if (document.getElementById("imgClickAndChange").src == document.getElementsByClassName("bigimage").src ) 
+    if (document.getElementById("imgClickAndChange").src == Sekiller[i] )
     {
-        document.getElementById("imgClickAndChange").src = "Images/forest.jpg";
+        document.getElementById("imgClickAndChange").src = "Images/big-one";
     }
     else 
     {
