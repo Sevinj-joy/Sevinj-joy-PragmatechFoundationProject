@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.slider {
+    /* width: 1200px;
+    height: 600px; */
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    height: inherit;
+    display: flex;
+    /* width: 3000px; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all .5s linear;
+}
+
+.slide {
+    /* width: 600px; */
+    height: inherit;
+}
+
+.slide span {
+    font-size: 4em;
+}
+
+.slide-controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.slide-controls button {
+    padding: 15px;
+    font-size: 2em;
+    background: none;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    background: rgba(255, 255, 255, .5);
+}
+
+.slider-dots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px groove white;
+    background: black;
+    margin: 0px 5px;
+    z-index: 3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+    cursor: pointer;
+}
