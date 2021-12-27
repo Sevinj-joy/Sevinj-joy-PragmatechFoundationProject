@@ -1,11 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    border-size: border-box;
+   
+  }
+  label{
+    margin-bottom: 0px;
   }
   
   html, body {
-    height: 100vh;
+ 
     font-family: 'Poppins', sans-serif;
    
   }
@@ -14,15 +17,52 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient (#D63078 #A23878, #783E79);
+    background: linear-gradient(to top right, #d33278 0%, #7f3d7a 100%);
+    font-weight: 900;
+    font-size: 1.1em;
   }
 
   #pinksection{
-    width: 560px;
-    height: 515px;
-    padding-top: 60px;
-    border: 1px solid greenyellow;
-    border-radius: 4px;
+    padding-top: 40px;
+    margin-top: 100px;
+    width: 600px;
+    height: auto;
+    border-radius: 6px;
     display: flex;
     justify-content: center;
+    background-color: white;
+   
   }
+  #pinksection input{
+    padding: 5px 10px;
+    border-radius: 5px solid lightgray;
+    background-color: #FAFAFA;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-right: 25px;
+  }
+ 
+  #option{
+    width: 100%;
+  }
+
+  #pinksection .request{
+    color: white;
+    background-color: mediumturquoise;
+    border-radius: 2px solid mediumturquoise;
+  }
+  .gendercheck .checkbox-round{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+
+

@@ -38,14 +38,18 @@
             <input type="date" id="start" name="trip-start"
             value="01.01.2000"
             min="01.01.1950" max="01.01.2006">
-            <div>
+            <div class="">
                 <label for="gender">Gender</label>
             </div>
-            <label for="male">Male</label>
-            <input type="checkbox" name="" id="">
-            <label for="female">Female</label>
-            <input type="checkbox" name="" id="">
-          </div>
+               <div class="gendercheck">
+                <label for="male">Male</label>
+                <input type="checkbox" name="" class="checkbox-round">
+                <label for="female">Female</label>
+                <input type="checkbox" name="" class="checkbox-round">
+               </div>
+
+
+           
              <div>
               <label for="email">Email</label>
              </div>
@@ -54,7 +58,17 @@
                 <label for="phone-number">Phone Number</label>
             </div>
             <input type="number" name="" id=""  placeholder="+994" pattern="+994 [0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
-        
+            
+               <div>
+                 <label for="subject">Subject</label>
+               </div>
+               <select id="option">
+                <option value="main">Choose option</option>
+                <option value="new">New customer</option>
+                <option value="admin">Admin</option>
+               
+              </select>
+              <input type="submit" value="Send Request" class="request">
 
      </div>
 
