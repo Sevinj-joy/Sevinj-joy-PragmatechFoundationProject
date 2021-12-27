@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-size: border-box;
+  }
+  
+  html, body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+   
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient (#D63078 #A23878, #783E79);
+  }
+
+  #pinksection{
+    width: 560px;
+    height: 515px;
+    padding-top: 60px;
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+  }
