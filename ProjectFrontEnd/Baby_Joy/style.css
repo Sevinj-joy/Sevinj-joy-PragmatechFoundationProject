@@ -230,21 +230,21 @@ hr{
 /* Sales section basladi  */
 #sales{
     margin-top: 50px;
-    border:3px solid palevioletred;
-    height: 100vh;
+    height: 90vh;
 }
 .sale-items{
-   
     display: flex;
     justify-content: space-around;
-    border:2px solid black;
+  
+  
 }
 .items{
     margin-top: 60px;
     width: 270px;
     height: 350px;
-    border: 1px solid peru;
     object-fit: cover;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .items img{
     width: 100%;
@@ -253,6 +253,15 @@ hr{
 }
 
 .price{
-    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    color: #67595E;
 }
-
+/* Slider-line basladi */
+.slider-line{
+    margin: 0px auto;
+    height: 0px auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid cadetblue;
+}
