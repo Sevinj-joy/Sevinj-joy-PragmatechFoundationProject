@@ -124,7 +124,7 @@ hr{
     margin-top: 55px;
     display: flex;
     justify-content: space-evenly;
-    z-index: 1;
+    z-index: 70;
     
 }
 .block-babies-div-panel {
@@ -139,10 +139,11 @@ hr{
 /*Backround Image css*/
 
 #b-img-div{
+    margin-top: 50px;
     background-image: url(Images/home1.jpg);
     margin-top: 55px;
     width: 100%;
-    height: 100%;
+    height: 750px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,13 +153,14 @@ hr{
     background-color: white;
     width: 445px;
     height: 180px;
-    position: relative;
+    position: absolute;
     font-size: 1.2rem;
     line-height: 40px;
     text-align: center;
     font-weight: 400;
     margin: 0px;
     padding: 0px;
+
 }
 .b-img-middle-div span{
     color: #99A9B4;
@@ -174,7 +176,7 @@ hr{
     text-align: center;
     line-height: 25px;
     font-size: 1rem;
-    bottom: 120px;
+    top: 440px;
     z-index: 20;
 }
 #b-img-div .btn-shop a{
