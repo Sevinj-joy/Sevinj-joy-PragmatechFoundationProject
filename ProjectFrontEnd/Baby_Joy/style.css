@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    height:100% ;
     margin: 0px;
     padding: 0px;
     font-family: "Edmondsans";
@@ -141,7 +142,7 @@ hr{
     background-image: url(Images/home1.jpg);
     margin-top: 55px;
     width: 100%;
-    height: 490px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,6 +175,7 @@ hr{
     line-height: 25px;
     font-size: 1rem;
     bottom: 120px;
+    z-index: 20;
 }
 #b-img-div .btn-shop a{
     color: white;
@@ -183,14 +185,23 @@ hr{
     width: 100%;
     position: absolute;
     left: 0px;
-    border: 1px solid yellow;
+    top: 20px;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     line-height: 3em;
-
+    display: none;
+    border: 2px solid pink;
+    z-index: 10;
+ 
 }
+
+.navbar-nav-menu ul > li:nth-child(3):hover .boys-girls-div-panel{
+    display: block;
+   
+}
+
 .products-down-menu span{
     padding-left: 45px;
     font-size: 1.5em;
