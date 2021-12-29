@@ -139,7 +139,7 @@ hr{
 /*Backround Image css*/
 
 #b-img-div{
-    margin-top: 50px;
+    margin-top: 80px;
     background-image: url(Images/home1.jpg);
     margin-top: 55px;
     width: 100%;
@@ -276,7 +276,7 @@ hr{
     width:100%;
     height:510px;
     display: flex;
-    border: 1px solid red;
+ 
 }
 .text-collage{
     display: flex;
@@ -285,11 +285,11 @@ hr{
     justify-content: center;
     align-items: center;
     background-color:#E8B4B8;
-    border:1px solid black;
+ 
 }
 
 .promotions{
-    border:1px solid green; 
+   
 }
 .promotions img {
     width: 315px;
