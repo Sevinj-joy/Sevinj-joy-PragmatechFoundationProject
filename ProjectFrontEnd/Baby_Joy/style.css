@@ -263,11 +263,10 @@ hr{
     height: 0px auto;
     display: flex;
     justify-content: center;
-    border: 2px solid cadetblue;
 }
 .line{
     width: 30px;
-    height: 7px;
-    background-color: gray;
+    height: 5px;
+    background-color: #E8B4B8 ;
     margin: 5px 5px;
 }
