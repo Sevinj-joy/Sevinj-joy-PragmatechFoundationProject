@@ -265,8 +265,34 @@ hr{
     justify-content: center;
 }
 .line{
-    width: 30px;
-    height: 5px;
+    width: 42px;
+    height: 3px;
     background-color: #E8B4B8 ;
     margin: 5px 5px;
+}
+.promotions-panel{
+    box-sizing: border-box;
+    margin-top: 100px;
+    width:100%;
+    height:510px;
+    display: flex;
+    border: 1px solid red;
+}
+.text-collage{
+    display: flex;
+    width: 314px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#E8B4B8;
+    border:1px solid black;
+}
+
+.promotions{
+    border:1px solid green; 
+}
+.promotions img {
+    width: 315px;
+    height: 510px;
+    object-fit: cover;
 }
