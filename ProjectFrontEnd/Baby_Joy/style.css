@@ -296,7 +296,6 @@ hr{
 }
 .subcribe-middle-panel{
     padding-top: 60px;
-    border: 1px solid black;
     flex-direction: row;
     text-align: center;
 
@@ -342,4 +341,26 @@ hr{
     background-color: #EFDCF9;
     box-shadow: rgba(196, 194, 194, 0.15) 0 3px 9px 0;
     transform: translateY(-2px);
+}
+
+.footer-panel{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-left-panel {
+    margin-top: 60px;
+    width: 800px;
+    height: auto;
+    border: 1px solid  #D7A1F9;
+}
+.footer-right-panel{
+    background-color:#E8B4B8;
+    margin-top:60px;
+}
+.social-media{
+    margin-top: 60px;
+}
+.fb-wh-inst {
+    display: block;
+    
 }
