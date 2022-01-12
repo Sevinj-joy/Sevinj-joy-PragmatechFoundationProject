@@ -52,7 +52,7 @@
 # x = senten_typle.find(word)
 # if "culture" in senten_typle:
 #     print("Metnde bu soz var")
-# else
+# elif "culture" not in senten_typle:
 #     print("NOT FOUND")
 
 
@@ -62,3 +62,8 @@
 #     print("NOT FOUND")
 
 # task10
+# x = 65
+# y = 22
+# w = (65 / 22)
+# z= (65 % 22)
+# print(w , z)
