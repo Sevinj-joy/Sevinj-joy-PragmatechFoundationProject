@@ -19,10 +19,10 @@
 # x = capitals.replace("," , "*")
 # print(x)
 
+
 #task4
 # words = "Macaristan"[::-1]
 # print(words)
-
 #task5
 # languages ="Python C JavaScript"
 # print("Languages:", languages )
@@ -47,19 +47,20 @@
 # print(math.pow(int(a),int(b)))
 
 #task9
-# word = "culture"
-# senten_typle= "Nineteen Eighty-Four does not present art-as-culture"
-# x = senten_typle.find(word)
-# if "culture" in senten_typle:
-#     print("Metnde bu soz var")
-# elif "culture" not in senten_typle:
-#     print("NOT FOUND")
+word = input("sozu daxil edin:")
+senten_typle = "Nineteen Eighty-Four does not present. art-as-culture"
+if "." in senten_typle:
+    n = senten_typle.split(".")
+if "-" in senten_typle:
+    t = senten_typle.split("-")
+if " " in senten_typle:
+    z = senten_typle.split(" ")
+y =n + t + z
 
-
-# if x == True :
-#      print( "Metnde bu soz var")
-#  elif x == False :
-#     print("NOT FOUND")
+if word in senten_typle:
+    print(f"Metnde {word} sozu var")
+else:
+    print(f"Metnde {word} sozu yoxdur")
 
 # task10
 # x = 65
@@ -67,3 +68,6 @@
 # w = (65 / 22)
 # z= (65 % 22)
 # print(w , z)
+
+
+#task12
