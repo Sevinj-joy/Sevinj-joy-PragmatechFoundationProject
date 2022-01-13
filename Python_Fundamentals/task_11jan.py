@@ -47,20 +47,20 @@
 # print(math.pow(int(a),int(b)))
 
 #task9
-word = input("sozu daxil edin:")
-senten_typle = "Nineteen Eighty-Four does not present. art-as-culture"
-if "." in senten_typle:
-    n = senten_typle.split(".")
-if "-" in senten_typle:
-    t = senten_typle.split("-")
-if " " in senten_typle:
-    z = senten_typle.split(" ")
-y =n + t + z
+# word = input("sozu daxil edin:")
+# senten_typle = "Nineteen Eighty-Four does not present. art-as-culture"
+# if "." in senten_typle:
+#     n = senten_typle.split(".")
+# if "-" in senten_typle:
+#     t = senten_typle.split("-")
+# if " " in senten_typle:
+#     z = senten_typle.split(" ")
+# y =n + t + z
 
-if word in senten_typle:
-    print(f"Metnde {word} sozu var")
-else:
-    print(f"Metnde {word} sozu yoxdur")
+# if word in senten_typle:
+#     print(f"Metnde {word} sozu var")
+# else: 
+#     print(f"Metnde {word} sozu yoxdur")
 
 # task10
 # x = 65
