@@ -36,9 +36,24 @@
 #     print(qiymet[4])
 # elif user_choosen == "ciyelek":
 #     print(qiymet[5])
-
+# else:
+#     print("Bele meyve yoxdur")
 
 # task4
-name = input("Adinizi daxil edin:")
-surname =input ("Soyadinizi daxil edin:")
-age =input("Yasinizi daxil edin:")
+# name = input("Adinizi daxil edin:")
+# mail = "@gmail.com"
+# # age =input("Yasinizi daxil edin:")
+# if len(name) > 3 and len(name) < 11:
+#     surname = input("Soyadinizi daxil edin:")
+#     if len(surname) > 5 and len(surname) < 15:
+#         year = input("Doguldugunuz ili daxil edin:")
+#         if len(year) == 4:
+#             email = input("Mail unvaninizi daxil edin:")
+#             bolgu =mail.split("@")
+#             if len(email) > 10 and len(email) < 22 and email in mail and bolgu[1] == "gmail.com":
+
+
+
+
+# else:
+#     print("Ad normalara uygun deyil")
