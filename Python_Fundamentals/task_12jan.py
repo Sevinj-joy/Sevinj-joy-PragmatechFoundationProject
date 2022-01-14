@@ -48,11 +48,19 @@
 #     if len(surname) > 5 and len(surname) < 15:
 #         year = input("Doguldugunuz ili daxil edin:")
 #         if len(year) == 4:
-#             email = input("Mail unvaninizi daxil edin:")
-#             bolgu =mail.split("@")
+#              email = input("Mail unvaninizi daxil edin:")
+#              bolgu =mail.split("@")
 #             if len(email) > 10 and len(email) < 22 and email in mail and bolgu[1] == "gmail.com":
-
-
+#                  password = input("Parolu daxil edin")
+#                 if len(password) > 6 and len(password)< 13:
+#                     tesdiq = input('Parolu tesdiqle: ')
+#                     if password == tesdiq :
+#                         print('Qeydiyyat tamamlandi!')
+#                         yoxla = input('Qeydiyyat detallarini gormek isteyirsiz? ')
+#                         if yoxla == 'he' :
+#                             print(f'Ad: {name} Soyad: {surname} Yas: {year} Email: {email} Parol: {password}')
+#                         elif yoxla == 'yox':
+#                             print('Murad Əliyev, Uğurlar!')
 
 
 # else:
