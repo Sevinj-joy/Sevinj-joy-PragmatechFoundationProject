@@ -46,5 +46,21 @@
 # task4 -m natural ədədi n ədədinin o zaman bərabər böləni adlanır ki, n-nin m-ə bölünməsindən alınan
 # tam və qalıq bərabər olsun. Verilmiş n natural ədədinə görə onun bərabər bölənlərinin sayını tapın.
 # Müsbət n tam ədədi (1 ≤ n ≤ 106).
-m = input("Eded daxil edin")
-n = input("Eded daxil edin")
+# m = input("Eded daxil edin")
+# n = input("Eded daxil edin")
+# def bolen_sayi(m,n):
+#     if m % n ==1:
+#         print (f"{m} ve {n} beraberdir ")
+#     else:
+#         print (f"{m} ve {n} ferqli ededlerdir ")
+# bolen_sayi(8,4)
+
+
+# task5 -Verilmiş hesabi ifadədə toplama (+), çıxma (-) 
+# və vurma (*) əməllərinin ümumi sayını müəyyənləşdirin.
+# m = input("Birinci ededi daxil edin ..")
+# n = input("Ikinci ededi daxil edin ..")
+# def hesab(m ,n): 
+#     a= int(4+5-2-m % n*2 % 4)
+#     print("Cavab:" , a)
+# hesab(int(m), int(n))
