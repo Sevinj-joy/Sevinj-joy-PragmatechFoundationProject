@@ -1,6 +1,6 @@
 # task1- Üç müxtəlif a, b, c ədədləri verilmişdir. Onlardan qiymətcə orta olanı tapın.
 # def orta_eded(a, b, c):
-#     netice = float((a+b+c) % 3)
+#     netice = float((a+b+c) / 3)
 #     print("Daxil etdiyiniz 3 ededin ededi ortasi :",netice)
 # a = int(input("Birinci ededi daxil edin .."))
 # b = int(input("Ikinci ededi daxil edin .."))
