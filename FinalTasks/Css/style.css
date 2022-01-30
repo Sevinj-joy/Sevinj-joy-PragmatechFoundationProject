@@ -1,0 +1,310 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+/* Logo Menu Navbar started */
+#logo-menu-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/bk2.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+.navbar-menu-number{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.navbar-menu-number img{
+    width: 170px;
+    height: 64px;
+}
+.menu-navbar ul{
+    display: flex;
+    justify-content:space-evenly ;
+    list-style-type: none; 
+}
+.menu-navbar ul li a {
+   text-decoration: none;
+   color: white;
+   margin-right: 40px;
+   line-height: 1.2;
+   font-size: 17px;
+   font-weight: 700;
+   transition:all 0.5 ease linear;
+
+}
+.contact-number{
+ font-size: 20px;
+}
+.contact-number span{
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+}
+/* Logo Menu Navbar finished */
+.navbar-text-btn{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 560px;
+    height: 250px;
+    color: white;
+}
+.navbar-text-ecotech{
+    font-size: 28px;
+}
+
+.btn-primary{
+  width:205px ;
+  align-items: center;
+  appearance: none;
+  color: #fff;
+  background-color: #5dd39e;
+  background-image: linear-gradient(1deg,  #5dd39e, #5CD29D 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-color: #5dd39e;
+  border-width: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+ /* Input Box  */
+ 
+ /* ECOTECH TEXT AND INPUT SECTION STARTED */
+.input-box{
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 6px;
+}
+.input-box span{
+    color: #525252;
+    padding-top: 25px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+}
+.input-box input{
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 15px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;;
+}
+.input-box select{
+  width: 400px;
+  background-color: #f5f5f5;;
+  color: #525252;
+  padding: 14px 20px;
+  margin: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+.tree-dot{
+    text-align: center;
+}
+.tree-dot span{
+    cursor: pointer;
+    width: 15px;
+    height:15px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    opacity: 0.5;
+    transition: 250ms;
+    margin-right: 5px;
+}
+/* SUBJECT TEXT STARTED */
+.subject-text{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #333333;
+}
+.company-text{
+    width: 100%;
+    height: 70px; 
+    font-size: 20px; 
+    font-weight: 300;
+    text-align: center;
+    color: #333;
+}
+ /* TREE PICTURE ITEMS STARTED  */
+ .tree-items{
+    width: 100%;
+    height: 300px;
+ }
+ .tree-items img{
+    object-fit: cover;
+ }
+ /* GRID CONTAINER STARTED */
+ .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:white;
+    padding: 10px;
+  }
+.right-item{
+    margin-bottom: 20px;
+    margin-left:52px ;
+}
+.left-item{
+    font-size: 75px;
+}
+/* WHY ECOTECH STARTED */
+.why-ecotech-content-text{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-size: 25px;
+    color: white;
+}
+.why-ecotech-content-text p{
+    font-size: medium;
+}
+.button-white{
+  align-items: center;
+  appearance: none;
+  background-color:transparent;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color:#5CD29D;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  font-weight: bold;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+  border: 2px solid #5CD29D;
+}
+.button-white:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+.button-white:focus {
+  outline: none;
+}
+/* OUR PRODUCTS STARTED  */
+.our-products{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+.item-box{
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 340px;
+    color: #333;
+}
+.our-products-main-text{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.our-products-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* OUR CUSTOMERS STARTED */
+.our-customers{
+    margin-top: 150px;
+    text-align: center;
+    color: #333;
+    font-weight: lighter;
+}
+.gray-line{
+    align-items: center;
+    width: 55px;
+    height: 10px;
+    background-color: #525252;
+}
+.our-customers-about{
+    display: flex;
+    justify-content: space-evenly;
+}
+.our-customers-about img{
+   border-radius: 100%;
+}
+/* PURPLE CONTENT STARTED */
+.purple-content{
+width: 100%;
+height: 350px;
+background: rgb(99,94,150);
+background: linear-gradient(90deg, rgba(99,94,150,1) 1%, rgba(99,71,119,1) 100%);
+text-align: center;
+margin-top: 100px;
+}
+.content-text{
+    padding-top: 100px;
+    color: ivory;
+}
+/* SLIDER STARTED */
+.useful-heading{
+    margin-top: 50px;
+    text-align: center;
+}
+.slider-items{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+.left-item{
+    border-radius: 4px;
+}
+.right-item{
+    border-radius: 4px;
+}
+/* .middle-item{
+width: 570px;
+height: 370px;
+border-radius: 4px;
+
+
+} */

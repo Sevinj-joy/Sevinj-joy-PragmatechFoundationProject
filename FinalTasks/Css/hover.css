@@ -1,0 +1,29 @@
+.menu-navbar ul li a:hover{
+    color: #5CD29D;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #5CD29D ;
+}
+.contact-number span:hover{
+    color: #5CD29D;
+}
+.btn-primary:hover {
+    background-position: -20px -20px;
+    background-color:white; 
+    color:deepskyblue;
+  }
+.input-box input:hover{
+    background-color: #5CD29D;
+}
+.input-box select:hover{
+    background-color: #5CD29D;
+}
+.tree-dot span:hover{
+    background-color: white;
+}
+.button-white:hover {
+    background:#5CD29D;
+    color: white;
+  }
+  .item-box h3:hover{
+      color:#5CD29D ;
+  }

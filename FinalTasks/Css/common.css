@@ -1,0 +1,44 @@
+.bkcolor-green{
+    background-color: #5CD29D;
+}
+.color-green{
+    color: #5CD29D;
+}
+.color-text{
+ color: #333;
+}
+.margin-top{
+    margin-top: 45px;
+}
+.margin-top-max{
+    margin-top: 100px;
+}
+.margin-bottom{
+ margin-bottom: 15px;
+}
+.margin-bottom-max{
+    margin-bottom: 50px;
+}
+.margin-left{
+ margin-left: 17px;
+}
+.padding-top{
+    padding-top: 30px;
+}
+.bold{
+    font-weight: bold;
+}
+.font-size-minimum{
+    font-size: 17px;
+}
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+ }
+ .block-items{
+     display: inline-block;
+ }
+ .center{
+     margin-top: 50px;
+     text-align: center;
+ }
