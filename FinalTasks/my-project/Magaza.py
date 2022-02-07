@@ -9,7 +9,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI']='mysql://root:''@localhost/alchemy'
+app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=FALSE
 db = SQLAlchemy(app)
 
@@ -18,7 +18,11 @@ db = SQLAlchemy(app)
 #     data INTEGER NOT NULL ON CONFLICT FAIL,
 #     PRIMARY KEY (id)
 # )
-class User(db.model):
-   id =db.Column(db.integer , primary_key=True)
-   ad =db.Column(db.string(80) ,unique=True )
-   qiymet=db.Column
+class User(db.Model):
+   id =db.Column(db.Integer , primary_key=True)
+   ad =db.Column(db.String(80) ,unique=True )
+   qiymet=db.Column(db.Integer, nullable=True)
+   miqdar =db.Column(db.String(80), nullable= True)
+   kateqoriya=db.Column(db.String(80), nullable= True)
+   elave_informasiya=db.Column(db.String(250), nullable= True)
+

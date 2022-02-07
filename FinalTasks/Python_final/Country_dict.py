@@ -84144,10 +84144,11 @@ olkeler={
     "Victoria Falls"
   ]
 }
-from ast import Pass
-from optparse import Values
-from re import I, X
+# from ast import Pass
+# from optparse import Values
+# from re import I, X
 # from countries import olkeler
+
 
   # seher adi daxil edildiyi zaman o seherin aid olduğu ölkəni göstərsin
 # city_name = input("Seher adi daxil edin:")
