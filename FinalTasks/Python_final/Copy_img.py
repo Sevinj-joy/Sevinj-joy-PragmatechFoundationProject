@@ -1,3 +1,4 @@
+#3. Python vasitəsi ilə bir şəkli bir qovluqdan başqa qovluğa kopyalayan app yazaraq linkini qeyd edin
 import os
 import shutil
 
