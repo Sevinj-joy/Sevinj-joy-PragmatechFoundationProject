@@ -84145,7 +84145,7 @@ olkeler={
   ]
 }
 from re import I
-# from countries import olkeler
+from countries import olkeler
 
 cityname = input("Seher adi daxil edin:")
 def FindCity():
@@ -84153,7 +84153,7 @@ def FindCity():
   #  for cityname in olkeler.values():
   #      if cityname == olkeler[" "]:
   #          print("Bu seherdir")
-pass
+  pass
     
 FindCity()
 def FindCountry(countryname):
