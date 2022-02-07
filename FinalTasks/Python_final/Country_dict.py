@@ -84144,31 +84144,58 @@ olkeler={
     "Victoria Falls"
   ]
 }
-from re import I
+from ast import Pass
+from optparse import Values
+from re import I, X
 # from countries import olkeler
 
   # seher adi daxil edildiyi zaman o seherin aid olduğu ölkəni göstərsin
-cityname = input("Seher adi daxil edin:")
+# city_name = input("Seher adi daxil edin:")
+# # country_name = input("Olke adi daxil edin: ")
+# countries = olkeler.keys()
+# allofcountries_list=list(olkeler.items())
+# def FindCity():
+#   for city_name in olkeler.values():
+#     if city_name == olkeler.get(Values):
+#       print(f"{city_name}  Bu seherdir")
+# pass
+#  Olke adi daxil ederek Hemin olkenin seherlerini tapan funksiya
+# country_name=input('Olke adini daxil edin_')
+# def FindCities(olke_adi):
+#    if country_name in olkeler:
+#      print(country_name,"olkesinin bu seherleri vardir",olkeler[country_name] )
+# pass
+# FindCities(country_name)
 
-def FindCity():
-  get_key= olkeler.keys()
-  get_value =olkeler.values()
-  values =list(get_value)
-  keys = list(get_key)
-  for cityname in olkeler.values():
-    if cityname == keys:
-      print("Bu olkedir")
-pass
-    
-FindCity()
-def FindCountry(countryname):
-  # olke adi daxil edildiyi zaman o olkeye aid olan seherlerin adlarini ekranda gostersin
-  pass
 
-def CityCountMax():
-  # ek cox sehere sahib olan olkeni gostersin
-  pass
+# def CityCountMax():
+#   max= 0
+#   i =0
+#   # ek cox sehere sahib olan olkeni gostersin
+#   for olkeler[i] in olkeler.items():
+#     if olkeler[i] > max:
+#       max = olkeler.items[i]
+#       print(max)
+# Pass
 
-def CountAllCities():
-  # butun seherlerin sayini ekranda gostersin
-  pass
+# CityCountMax()
+
+# def CountAllCities():
+# def CityCountMax():
+#   # EN cox sehere sahib olan olkeni gostersin
+#  Countries = list(olkeler.keys())
+#  Cities = list(olkeler.values())
+#  Cities_count_list=[]
+#  count_city=0
+
+#  for i in range(len(Cities)):
+#   Cities_count_list.append(len(Cities[i]))
+#   count_city=max(Cities_count_list)
+#   print(count_city)
+ 
+# pass
+# CityCountMax()
+# def CountAllCities():
+#   # butun seherlerin sayini ekranda gostersin
+#   pass
+
