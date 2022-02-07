@@ -84144,26 +84144,26 @@ olkeler={
     "Victoria Falls"
   ]
 }
-# from re import I
-# # from countries import olkeler
+from re import I
+# from countries import olkeler
 
-# cityname = input("Seher adi daxil edin:")
-# def FindCity():
-#   # seher adi daxil edildiyi zaman o seherin aid olduğu ölkəni göstərsin
-#    for cityname in olkeler.values():
-#        if cityname == olkeler[" "]:
-#            print("Bu seherdir")
-# pass
+cityname = input("Seher adi daxil edin:")
+def FindCity():
+  # seher adi daxil edildiyi zaman o seherin aid olduğu ölkəni göstərsin
+  #  for cityname in olkeler.values():
+  #      if cityname == olkeler[" "]:
+  #          print("Bu seherdir")
+pass
     
-# FindCity()
-# def FindCountry(countryname):
-#   # olke adi daxil edildiyi zaman o olkeye aid olan seherlerin adlarini ekranda gostersin
-#   pass
+FindCity()
+def FindCountry(countryname):
+  # olke adi daxil edildiyi zaman o olkeye aid olan seherlerin adlarini ekranda gostersin
+  pass
 
-# def CityCountMax():
-#   # ek cox sehere sahib olan olkeni gostersin
-#   pass
+def CityCountMax():
+  # ek cox sehere sahib olan olkeni gostersin
+  pass
 
-# def CountAllCities():
-#   # butun seherlerin sayini ekranda gostersin
-#   pass
+def CountAllCities():
+  # butun seherlerin sayini ekranda gostersin
+  pass
