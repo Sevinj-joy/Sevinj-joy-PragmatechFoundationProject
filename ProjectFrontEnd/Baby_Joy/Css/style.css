@@ -81,28 +81,15 @@ hr{
     z-index: 15;
   
 }
-
 .navbar-nav-menu-list{
     margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
-
 .navbar-nav-menu ul a{
     text-decoration: none;
     color:#67595E;
-}
-.navbar-nav-menu li a:hover{
-    color: white;
-    background-color: #67595E;
-    transition: 0.3s ease;
-    border-radius: 2px;
-    
-}
-.navbar-nav-menu ul > li:nth-child(2):hover .justin-none-block{
-    display: block;
-   
 }
 .justin-none-block {
     width: 100%;
@@ -116,8 +103,7 @@ hr{
     margin-top: 55px;
     display: flex;
     justify-content: space-evenly;
-    z-index: 70;
-    
+    z-index: 70;   
 }
 .block-babies-div-panel {
     margin-right: 20px;
@@ -132,7 +118,7 @@ hr{
 
 #b-img-div{
     margin-top: 80px;
-    background-image: url(Images/home1.jpg);
+ 
     margin-top: 55px;
     width: 100%;
     height: 750px;
@@ -190,12 +176,6 @@ hr{
     z-index: 10;
  
 }
-
-.navbar-nav-menu ul > li:nth-child(3):hover .boys-girls-div-panel{
-    display: block;
-   
-}
-
 .products-down-menu span{
     padding-left: 45px;
     font-size: 1.5em;
@@ -226,9 +206,7 @@ hr{
 }
 .sale-items{
     display: flex;
-    justify-content: space-around;
-  
-  
+    justify-content: space-around; 
 }
 .items{
     margin-top: 60px;
@@ -268,7 +246,6 @@ hr{
     width:100%;
     height:510px;
     display: flex;
- 
 }
 .text-collage{
     display: flex;
@@ -277,7 +254,6 @@ hr{
     justify-content: center;
     align-items: center;
     background-color:#E8B4B8;
- 
 }
 .promotions img {
     width: 315px;
@@ -285,7 +261,6 @@ hr{
     object-fit: cover;
 }
 .subscribe-input{
-    margin-top: 150px;
     width: 100%;
     height: 325px;
     background-color: #FAE8E0;
@@ -298,8 +273,6 @@ hr{
     padding-top: 60px;
     flex-direction: row;
     text-align: center;
-
-
 }
  .button-37 {
      width: 160px;
@@ -322,12 +295,6 @@ hr{
       user-select: none;
       -webkit-user-select: none;
       touch-action: manipulation;
-    }
-    
- .button-37:hover {
-     background-color: #D7A1F9;
-      box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
-      transform: translateY(-2px);
     }
  .subcribe-middle-panel input{
    width: 300px;
@@ -355,11 +322,8 @@ hr{
 }
 .footer-right-panel{
     background-color:#E8B4B8;
-    margin-top:60px;
 }
-.social-media{
-    margin-top: 60px;
-}
+
 .fb-wh-inst {
     display: block;
     

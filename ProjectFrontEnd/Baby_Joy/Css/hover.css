@@ -1,0 +1,24 @@
+.navbar-nav-menu li a:hover{
+    color: white;
+    background-color: #67595E;
+    transition: 0.3s ease;
+    border-radius: 2px;
+}
+.navbar-nav-menu ul > li:nth-child(2):hover .justin-none-block{
+    display: block;
+}
+
+.navbar-nav-menu ul > li:nth-child(3):hover .boys-girls-div-panel{
+    display: block;  
+}
+.navbar-nav-menu ul > li:nth-child(4):hover .boys-girls-div-panel{
+    display: block;  
+}
+.navbar-nav-menu ul > li:nth-child(5):hover .boys-girls-div-panel{
+    display: block;  
+}
+.button-37:hover {
+    background-color: #D7A1F9;
+     box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+     transform: translateY(-2px);
+   }
